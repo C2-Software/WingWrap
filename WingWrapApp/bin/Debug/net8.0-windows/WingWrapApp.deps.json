@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "WingWrapApp/1.0.0": {
+        "runtime": {
+          "WingWrapApp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WingWrapApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
