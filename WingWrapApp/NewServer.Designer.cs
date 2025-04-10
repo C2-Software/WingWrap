@@ -1,4 +1,6 @@
-﻿namespace WingWrapApp
+﻿using System.IO;
+
+namespace WingWrapApp
 {
     partial class NewServer
     {
@@ -73,10 +75,20 @@
             PerformLayout();
         }
 
+        public static void filesetup()
+        {
+            string path = "./Servers.json";
+            if (File.Exists(path))
+            {
+                Console.WriteLine("debug file read");
+            }
+        }
+
         #endregion
 
         private Label SNameLabel;
         private TextBox SNameInput;
         private Button SSubmitButton;
+
     }
 }
