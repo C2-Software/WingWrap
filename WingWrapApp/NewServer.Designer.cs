@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System.Diagnostics;
+using System.IO;
 
 namespace WingWrapApp
 {
@@ -60,6 +61,7 @@ namespace WingWrapApp
             SSubmitButton.TabIndex = 2;
             SSubmitButton.Text = "Submit";
             SSubmitButton.UseVisualStyleBackColor = true;
+            SSubmitButton.Click += SSubmitButton_Click;
             // 
             // NewServer
             // 
@@ -73,15 +75,6 @@ namespace WingWrapApp
             Text = "Form1";
             ResumeLayout(false);
             PerformLayout();
-        }
-
-        public static void filesetup()
-        {
-            string path = "./Servers.json";
-            if (File.Exists(path))
-            {
-                Console.WriteLine("debug file read");
-            }
         }
 
         #endregion

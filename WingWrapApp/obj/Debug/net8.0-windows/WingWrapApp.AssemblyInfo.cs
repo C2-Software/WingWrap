@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WingWrapApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+305461108bff6d3b5cef17b6db39d2c0b9bb5e5a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dfd81b6ad8bf835c0c9924280f530b60d4ccc451")]
 [assembly: System.Reflection.AssemblyProductAttribute("WingWrapApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WingWrapApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

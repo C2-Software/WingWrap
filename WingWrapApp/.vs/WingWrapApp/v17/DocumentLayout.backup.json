@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "Y:\\GitHub\\WingWrap\\WingWrapApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{00F7C197-45CA-438C-A584-46CE7FECAD6D}|WingWrapApp.csproj|y:\\github\\wingwrap\\wingwrapapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00F7C197-45CA-438C-A584-46CE7FECAD6D}|WingWrapApp.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{00F7C197-45CA-438C-A584-46CE7FECAD6D}|WingWrapApp.csproj|y:\\github\\wingwrap\\wingwrapapp\\newserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00F7C197-45CA-438C-A584-46CE7FECAD6D}|WingWrapApp.csproj|solutionrelative:newserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00F7C197-45CA-438C-A584-46CE7FECAD6D}|WingWrapApp.csproj|y:\\github\\wingwrap\\wingwrapapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{00F7C197-45CA-438C-A584-46CE7FECAD6D}|WingWrapApp.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{00F7C197-45CA-438C-A584-46CE7FECAD6D}|WingWrapApp.csproj|y:\\github\\wingwrap\\wingwrapapp\\newserver.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00F7C197-45CA-438C-A584-46CE7FECAD6D}|WingWrapApp.csproj|solutionrelative:newserver.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00F7C197-45CA-438C-A584-46CE7FECAD6D}|WingWrapApp.csproj|y:\\github\\wingwrap\\wingwrapapp\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{00F7C197-45CA-438C-A584-46CE7FECAD6D}|WingWrapApp.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{00F7C197-45CA-438C-A584-46CE7FECAD6D}|WingWrapApp.csproj|y:\\github\\wingwrap\\wingwrapapp\\newserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{00F7C197-45CA-438C-A584-46CE7FECAD6D}|WingWrapApp.csproj|solutionrelative:newserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00F7C197-45CA-438C-A584-46CE7FECAD6D}|WingWrapApp.csproj|y:\\github\\wingwrap\\wingwrapapp\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00F7C197-45CA-438C-A584-46CE7FECAD6D}|WingWrapApp.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00F7C197-45CA-438C-A584-46CE7FECAD6D}|WingWrapApp.csproj|y:\\github\\wingwrap\\wingwrapapp\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{00F7C197-45CA-438C-A584-46CE7FECAD6D}|WingWrapApp.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,44 +30,74 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Form2.cs [Design]",
-              "DocumentMoniker": "Y:\\GitHub\\WingWrap\\WingWrapApp\\Form2.cs",
-              "RelativeDocumentMoniker": "Form2.cs",
-              "ToolTip": "Y:\\GitHub\\WingWrap\\WingWrapApp\\Form2.cs [Design]",
-              "RelativeToolTip": "Form2.cs [Design]",
+              "Title": "NewServer.cs [Design]",
+              "DocumentMoniker": "Y:\\GitHub\\WingWrap\\WingWrapApp\\NewServer.cs",
+              "RelativeDocumentMoniker": "NewServer.cs",
+              "ToolTip": "Y:\\GitHub\\WingWrap\\WingWrapApp\\NewServer.cs [Design]",
+              "RelativeToolTip": "NewServer.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T19:37:52.291Z",
+              "WhenOpened": "2025-04-10T22:53:29.762Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "Y:\\GitHub\\WingWrap\\WingWrapApp\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "Y:\\GitHub\\WingWrap\\WingWrapApp\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAfAAAAAAAAAA==",
+              "Title": "NewServer.cs",
+              "DocumentMoniker": "Y:\\GitHub\\WingWrap\\WingWrapApp\\NewServer.cs",
+              "RelativeDocumentMoniker": "NewServer.cs",
+              "ToolTip": "Y:\\GitHub\\WingWrap\\WingWrapApp\\NewServer.cs",
+              "RelativeToolTip": "NewServer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAWwBUAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T19:29:54.069Z",
+              "WhenOpened": "2025-04-10T22:51:16.099Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "Y:\\GitHub\\WingWrap\\WingWrapApp\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "Y:\\GitHub\\WingWrap\\WingWrapApp\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
+              "Title": "NewServer.Designer.cs",
+              "DocumentMoniker": "Y:\\GitHub\\WingWrap\\WingWrapApp\\NewServer.Designer.cs",
+              "RelativeDocumentMoniker": "NewServer.Designer.cs",
+              "ToolTip": "Y:\\GitHub\\WingWrap\\WingWrapApp\\NewServer.Designer.cs",
+              "RelativeToolTip": "NewServer.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T22:37:44.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Main.cs [Design]",
+              "DocumentMoniker": "Y:\\GitHub\\WingWrap\\WingWrapApp\\Main.cs",
+              "RelativeDocumentMoniker": "Main.cs",
+              "ToolTip": "Y:\\GitHub\\WingWrap\\WingWrapApp\\Main.cs [Design]",
+              "RelativeToolTip": "Main.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-10T19:28:37.539Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Main.cs",
+              "DocumentMoniker": "Y:\\GitHub\\WingWrap\\WingWrapApp\\Main.cs",
+              "RelativeDocumentMoniker": "Main.cs",
+              "ToolTip": "Y:\\GitHub\\WingWrap\\WingWrapApp\\Main.cs",
+              "RelativeToolTip": "Main.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T19:29:54.069Z",
+              "EditorCaption": ""
             }
           ]
         }

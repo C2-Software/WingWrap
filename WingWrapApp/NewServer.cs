@@ -16,5 +16,31 @@ namespace WingWrapApp
         {
             InitializeComponent();
         }
+
+        public static void filesetup(string ServerName)
+        {
+            string path = "Servers.json";
+            if (File.Exists(path))
+            {
+                Console.WriteLine("Debug file read");
+                using (StreamWriter sw = File.CreateText(path))
+                {
+                    sw.WriteLine(ServerName);
+                    Console.WriteLine("Debug file saved");
+                }
+            }
+            else
+            {
+                File.WriteAllText(path, "");
+                Console.WriteLine("Debug file made");
+            }
+        }
+
+        private void SSubmitButton_Click(object sender, EventArgs e)
+        {
+            Console.WriteLine("Button pressd");
+            filesetup(SNameInput.Text);
+        }
+
     }
 }
