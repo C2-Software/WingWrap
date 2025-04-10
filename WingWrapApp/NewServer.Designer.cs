@@ -28,12 +28,55 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            SNameLabel = new Label();
+            SNameInput = new TextBox();
+            SSubmitButton = new Button();
+            SuspendLayout();
+            // 
+            // SNameLabel
+            // 
+            SNameLabel.AutoSize = true;
+            SNameLabel.Location = new Point(27, 33);
+            SNameLabel.Name = "SNameLabel";
+            SNameLabel.Size = new Size(113, 25);
+            SNameLabel.TabIndex = 0;
+            SNameLabel.Text = "Server Name";
+            // 
+            // SNameInput
+            // 
+            SNameInput.Location = new Point(27, 61);
+            SNameInput.Name = "SNameInput";
+            SNameInput.PlaceholderText = "Server Name...";
+            SNameInput.Size = new Size(263, 31);
+            SNameInput.TabIndex = 1;
+            // 
+            // SSubmitButton
+            // 
+            SSubmitButton.Location = new Point(798, 520);
+            SSubmitButton.Name = "SSubmitButton";
+            SSubmitButton.Size = new Size(112, 34);
+            SSubmitButton.TabIndex = 2;
+            SSubmitButton.Text = "Submit";
+            SSubmitButton.UseVisualStyleBackColor = true;
+            // 
+            // NewServer
+            // 
+            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(955, 580);
+            Controls.Add(SSubmitButton);
+            Controls.Add(SNameInput);
+            Controls.Add(SNameLabel);
+            Name = "NewServer";
+            Text = "Form1";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private Label SNameLabel;
+        private TextBox SNameInput;
+        private Button SSubmitButton;
     }
 }
