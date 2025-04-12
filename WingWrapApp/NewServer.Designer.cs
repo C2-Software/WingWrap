@@ -34,6 +34,12 @@ namespace WingWrapApp
             SNameLabel = new Label();
             SNameInput = new TextBox();
             SSubmitButton = new Button();
+            ServerPortInput = new TextBox();
+            ServerPortLabel = new Label();
+            ServerExeInput = new TextBox();
+            SeverExeLabel = new Label();
+            ServerExecutableDialog = new OpenFileDialog();
+            SelectExecutableButton = new Button();
             SuspendLayout();
             // 
             // SNameLabel
@@ -52,7 +58,7 @@ namespace WingWrapApp
             SNameInput.Margin = new Padding(2);
             SNameInput.MaxLength = 25;
             SNameInput.Name = "SNameInput";
-            SNameInput.PlaceholderText = "Server Name...";
+            SNameInput.PlaceholderText = "(e.g. Minecraft)";
             SNameInput.Size = new Size(211, 27);
             SNameInput.TabIndex = 1;
             // 
@@ -67,11 +73,71 @@ namespace WingWrapApp
             SSubmitButton.UseVisualStyleBackColor = true;
             SSubmitButton.Click += SSubmitButton_Click;
             // 
+            // ServerPortInput
+            // 
+            ServerPortInput.Location = new Point(22, 120);
+            ServerPortInput.Margin = new Padding(2);
+            ServerPortInput.MaxLength = 25;
+            ServerPortInput.Name = "ServerPortInput";
+            ServerPortInput.PlaceholderText = "(e.g 25565)";
+            ServerPortInput.Size = new Size(211, 27);
+            ServerPortInput.TabIndex = 4;
+            // 
+            // ServerPortLabel
+            // 
+            ServerPortLabel.AutoSize = true;
+            ServerPortLabel.Location = new Point(22, 97);
+            ServerPortLabel.Margin = new Padding(2, 0, 2, 0);
+            ServerPortLabel.Name = "ServerPortLabel";
+            ServerPortLabel.Size = new Size(80, 20);
+            ServerPortLabel.TabIndex = 3;
+            ServerPortLabel.Text = "Server Port";
+            // 
+            // ServerExeInput
+            // 
+            ServerExeInput.Location = new Point(22, 196);
+            ServerExeInput.Margin = new Padding(2);
+            ServerExeInput.MaxLength = 25;
+            ServerExeInput.Name = "ServerExeInput";
+            ServerExeInput.PlaceholderText = "(e.g. C:/user/Minecraft_server)";
+            ServerExeInput.Size = new Size(211, 27);
+            ServerExeInput.TabIndex = 6;
+            // 
+            // SeverExeLabel
+            // 
+            SeverExeLabel.AutoSize = true;
+            SeverExeLabel.Location = new Point(22, 173);
+            SeverExeLabel.Margin = new Padding(2, 0, 2, 0);
+            SeverExeLabel.Name = "SeverExeLabel";
+            SeverExeLabel.Size = new Size(126, 20);
+            SeverExeLabel.TabIndex = 5;
+            SeverExeLabel.Text = "Server Executable";
+            // 
+            // ServerExecutableDialog
+            // 
+            ServerExecutableDialog.FileName = "ServerExecutableInput";
+            ServerExecutableDialog.Title = "Select Server Executable";
+            // 
+            // SelectExecutableButton
+            // 
+            SelectExecutableButton.Location = new Point(238, 196);
+            SelectExecutableButton.Name = "SelectExecutableButton";
+            SelectExecutableButton.Size = new Size(94, 29);
+            SelectExecutableButton.TabIndex = 7;
+            SelectExecutableButton.Text = "Select file...";
+            SelectExecutableButton.UseVisualStyleBackColor = true;
+            SelectExecutableButton.Click += SelectExecutableButton_Click;
+            // 
             // NewServer
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(764, 464);
+            Controls.Add(SelectExecutableButton);
+            Controls.Add(ServerExeInput);
+            Controls.Add(SeverExeLabel);
+            Controls.Add(ServerPortInput);
+            Controls.Add(ServerPortLabel);
             Controls.Add(SSubmitButton);
             Controls.Add(SNameInput);
             Controls.Add(SNameLabel);
@@ -87,6 +153,11 @@ namespace WingWrapApp
         private Label SNameLabel;
         private TextBox SNameInput;
         private Button SSubmitButton;
-
+        private TextBox ServerPortInput;
+        private Label ServerPortLabel;
+        private TextBox ServerExeInput;
+        private Label SeverExeLabel;
+        private OpenFileDialog ServerExecutableDialog;
+        private Button SelectExecutableButton;
     }
 }

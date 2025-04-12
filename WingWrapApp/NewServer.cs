@@ -32,6 +32,8 @@ namespace WingWrapApp
             var serverData = new Serverdata
             {
                 ServerName = SNameInput.Text,
+                ServerPort = Convert.ToInt32(ServerPortInput.Text),
+                Serverfile = ServerExeInput.Text,
             };
 
             var options = new JsonSerializerOptions { WriteIndented = true };
@@ -60,5 +62,9 @@ namespace WingWrapApp
             AmmendServer();
         }
 
+        private void SelectExecutableButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
