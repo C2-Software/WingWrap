@@ -64,7 +64,12 @@ namespace WingWrapApp
 
         private void SelectExecutableButton_Click(object sender, EventArgs e)
         {
+            ServerExecutableDialog.ShowDialog();
+        }
 
+        private void ServerExecutableDialog_FileOk(object sender, CancelEventArgs e)
+        {
+            ServerExeInput.Text = ServerExecutableDialog.CheckPathExists.ToString();
         }
     }
 }

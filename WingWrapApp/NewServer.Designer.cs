@@ -117,6 +117,7 @@ namespace WingWrapApp
             // 
             ServerExecutableDialog.FileName = "ServerExecutableInput";
             ServerExecutableDialog.Title = "Select Server Executable";
+            ServerExecutableDialog.FileOk += ServerExecutableDialog_FileOk;
             // 
             // SelectExecutableButton
             // 
