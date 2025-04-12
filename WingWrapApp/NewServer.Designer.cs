@@ -49,7 +49,8 @@ namespace WingWrapApp
             // SNameInput
             // 
             SNameInput.Location = new Point(22, 49);
-            SNameInput.Margin = new Padding(2, 2, 2, 2);
+            SNameInput.Margin = new Padding(2);
+            SNameInput.MaxLength = 25;
             SNameInput.Name = "SNameInput";
             SNameInput.PlaceholderText = "Server Name...";
             SNameInput.Size = new Size(211, 27);
@@ -58,7 +59,7 @@ namespace WingWrapApp
             // SSubmitButton
             // 
             SSubmitButton.Location = new Point(638, 416);
-            SSubmitButton.Margin = new Padding(2, 2, 2, 2);
+            SSubmitButton.Margin = new Padding(2);
             SSubmitButton.Name = "SSubmitButton";
             SSubmitButton.Size = new Size(90, 27);
             SSubmitButton.TabIndex = 2;
@@ -74,7 +75,7 @@ namespace WingWrapApp
             Controls.Add(SSubmitButton);
             Controls.Add(SNameInput);
             Controls.Add(SNameLabel);
-            Margin = new Padding(2, 2, 2, 2);
+            Margin = new Padding(2);
             Name = "NewServer";
             Text = "Form1";
             ResumeLayout(false);

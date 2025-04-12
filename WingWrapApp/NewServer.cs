@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 using System.Diagnostics;
+using System.Text.Json;
 
 namespace WingWrapApp
 {
@@ -19,15 +20,28 @@ namespace WingWrapApp
             InitializeComponent();
         }
 
-        public static void ammendServer()
+        public class Serverdata
         {
+            public string serverName { get; set; }
+            public int serverPort { get; set; }
+            public string serverfile { get; set; }
+        }
+
+        public void ammendServer()
+        {
+            var serverData = new Serverdata
+            {
+                serverName = SNameInput.Text,
+            };
+
+            var options = new JsonSerializerOptions { WriteIndented = true };
+            string jsonString = JsonSerializer.Serialize(serverData, options);
+
             if (File.Exists("Servers.json") == true)
             {
+                File.AppendAllText("Servers.json", jsonString);
                 Debug.Print("File made!");
             }
-
-
-
 
             //string writetext = "Test";
 
