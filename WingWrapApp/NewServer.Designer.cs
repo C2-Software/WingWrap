@@ -39,25 +39,28 @@ namespace WingWrapApp
             // SNameLabel
             // 
             SNameLabel.AutoSize = true;
-            SNameLabel.Location = new Point(27, 33);
+            SNameLabel.Location = new Point(22, 26);
+            SNameLabel.Margin = new Padding(2, 0, 2, 0);
             SNameLabel.Name = "SNameLabel";
-            SNameLabel.Size = new Size(113, 25);
+            SNameLabel.Size = new Size(94, 20);
             SNameLabel.TabIndex = 0;
             SNameLabel.Text = "Server Name";
             // 
             // SNameInput
             // 
-            SNameInput.Location = new Point(27, 61);
+            SNameInput.Location = new Point(22, 49);
+            SNameInput.Margin = new Padding(2, 2, 2, 2);
             SNameInput.Name = "SNameInput";
             SNameInput.PlaceholderText = "Server Name...";
-            SNameInput.Size = new Size(263, 31);
+            SNameInput.Size = new Size(211, 27);
             SNameInput.TabIndex = 1;
             // 
             // SSubmitButton
             // 
-            SSubmitButton.Location = new Point(798, 520);
+            SSubmitButton.Location = new Point(638, 416);
+            SSubmitButton.Margin = new Padding(2, 2, 2, 2);
             SSubmitButton.Name = "SSubmitButton";
-            SSubmitButton.Size = new Size(112, 34);
+            SSubmitButton.Size = new Size(90, 27);
             SSubmitButton.TabIndex = 2;
             SSubmitButton.Text = "Submit";
             SSubmitButton.UseVisualStyleBackColor = true;
@@ -65,12 +68,13 @@ namespace WingWrapApp
             // 
             // NewServer
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(955, 580);
+            ClientSize = new Size(764, 464);
             Controls.Add(SSubmitButton);
             Controls.Add(SNameInput);
             Controls.Add(SNameLabel);
+            Margin = new Padding(2, 2, 2, 2);
             Name = "NewServer";
             Text = "Form1";
             ResumeLayout(false);

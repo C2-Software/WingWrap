@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
+using System.Diagnostics;
 
 namespace WingWrapApp
 {
@@ -17,29 +19,31 @@ namespace WingWrapApp
             InitializeComponent();
         }
 
-        public static void filesetup(string ServerName)
+        public static void ammendServer()
         {
-            string path = "Servers.json";
-            if (File.Exists(path))
+            if (File.Exists("Servers.json") == true)
             {
-                Console.WriteLine("Debug file read");
-                using (StreamWriter sw = File.CreateText(path))
-                {
-                    sw.WriteLine(ServerName);
-                    Console.WriteLine("Debug file saved");
-                }
+                Debug.Print("File made!");
             }
-            else
-            {
-                File.WriteAllText(path, "");
-                Console.WriteLine("Debug file made");
-            }
+
+
+
+
+            //string writetext = "Test";
+
+            //File.WriteAllText("Servers.json", writetext);
+            //Debug.Print("Generating file...");
+
+            //if (File.Exists("Servers.json") == true)
+            //{
+            //    Debug.Print("File made!");
+            //}
         }
 
         private void SSubmitButton_Click(object sender, EventArgs e)
         {
-            Console.WriteLine("Button pressd");
-            filesetup(SNameInput.Text);
+            Debug.Print("Submit button pressed");
+            ammendServer();
         }
 
     }
