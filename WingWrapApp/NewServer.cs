@@ -22,16 +22,16 @@ namespace WingWrapApp
 
         public class Serverdata
         {
-            public string serverName { get; set; }
-            public int serverPort { get; set; }
-            public string serverfile { get; set; }
+            public required string ServerName { get; set; }
+            public required int ServerPort { get; set; }
+            public required string Serverfile { get; set; }
         }
 
-        public void ammendServer()
+        public void AmmendServer()
         {
             var serverData = new Serverdata
             {
-                serverName = SNameInput.Text,
+                ServerName = SNameInput.Text,
             };
 
             var options = new JsonSerializerOptions { WriteIndented = true };
@@ -57,7 +57,7 @@ namespace WingWrapApp
         private void SSubmitButton_Click(object sender, EventArgs e)
         {
             Debug.Print("Submit button pressed");
-            ammendServer();
+            AmmendServer();
         }
 
     }
