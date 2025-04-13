@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\GitHub\\WingWrap\\WingWrapApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{00F7C197-45CA-438C-A584-46CE7FECAD6D}|WingWrapApp.csproj|c:\\github\\wingwrap\\wingwrapapp\\newserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00F7C197-45CA-438C-A584-46CE7FECAD6D}|WingWrapApp.csproj|solutionrelative:newserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{00F7C197-45CA-438C-A584-46CE7FECAD6D}|WingWrapApp.csproj|c:\\github\\wingwrap\\wingwrapapp\\newserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{00F7C197-45CA-438C-A584-46CE7FECAD6D}|WingWrapApp.csproj|solutionrelative:newserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00F7C197-45CA-438C-A584-46CE7FECAD6D}|WingWrapApp.csproj|c:\\github\\wingwrap\\wingwrapapp\\newserver.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00F7C197-45CA-438C-A584-46CE7FECAD6D}|WingWrapApp.csproj|solutionrelative:newserver.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00F7C197-45CA-438C-A584-46CE7FECAD6D}|WingWrapApp.csproj|c:\\github\\wingwrap\\wingwrapapp\\newserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00F7C197-45CA-438C-A584-46CE7FECAD6D}|WingWrapApp.csproj|solutionrelative:newserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00F7C197-45CA-438C-A584-46CE7FECAD6D}|WingWrapApp.csproj|c:\\github\\wingwrap\\wingwrapapp\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,38 +38,38 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "NewServer.cs [Design]",
               "DocumentMoniker": "C:\\GitHub\\WingWrap\\WingWrapApp\\NewServer.cs",
               "RelativeDocumentMoniker": "NewServer.cs",
               "ToolTip": "C:\\GitHub\\WingWrap\\WingWrapApp\\NewServer.cs [Design]",
               "RelativeToolTip": "NewServer.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T22:53:29.762Z",
+              "WhenOpened": "2025-04-12T22:25:28.469Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "NewServer.cs",
               "DocumentMoniker": "C:\\GitHub\\WingWrap\\WingWrapApp\\NewServer.cs",
               "RelativeDocumentMoniker": "NewServer.cs",
               "ToolTip": "C:\\GitHub\\WingWrap\\WingWrapApp\\NewServer.cs",
               "RelativeToolTip": "NewServer.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAmwDwAAAAJAAAA",
+              "ViewState": "AQIAADgAAAAAAAAAAAAmwEcAAABUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-10T22:51:16.099Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "NewServer.Designer.cs",
               "DocumentMoniker": "C:\\GitHub\\WingWrap\\WingWrapApp\\NewServer.Designer.cs",
               "RelativeDocumentMoniker": "NewServer.Designer.cs",
               "ToolTip": "C:\\GitHub\\WingWrap\\WingWrapApp\\NewServer.Designer.cs",
               "RelativeToolTip": "NewServer.Designer.cs",
-              "ViewState": "AQIAAEYAAAAAAAAAAAAAAFMAAAApAAAA",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAFQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-10T22:37:44.629Z",
               "EditorCaption": ""
